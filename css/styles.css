@@ -1,0 +1,29 @@
+html {
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  width: 100%; }
+
+.tml-box {
+  margin: 3em 1.5em 1.5em 1.5em;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px; }
+
+body {
+  margin: 0; }
+
+.header {
+  font-size: 32px; }
+
+.command {
+  margin: 30px 0 0 0;
+  font-weight: 900;
+  font-size: 16px; }
+
+.command input[type=text] {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 16px;
+  max-width: 175px; }
+
+/*# sourceMappingURL=styles.css.map */

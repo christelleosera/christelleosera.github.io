@@ -1,0 +1,91 @@
+$yellow-color: #E5EEC1
+$mint-color: #A2D4AB
+$blue-color: #3EACA8
+$blue-grey-color: #547A82
+$dark-grey-color: #5A5050
+
+= vendor-prefix($name, $argument)
+	-webkit-#{$name}: #{$argument}
+	-ms-#{$name}: #{$argument}
+	-moz-#{$name}: #{$argument}
+	-o-#{$name}: #{$argument}
+	#{$name}: #{$argument}
+
+html
+	min-height: 100%
+	overflow-x: hidden
+	overflow-y: scroll
+	position: relative
+	width: 100%
+	// background-color: #000
+
+.tml-box
+	margin: 3em 1.5em 1.5em 1.5em
+	font-family: 'Share Tech Mono', monospace
+	font-size: 20px
+// 	width: 600px
+// 	height: 400px
+// 	position: absolute
+// 	margin: auto
+// 	top: 0
+// 	bottom: 0
+// 	left: 0
+// 	right: 0
+// 	border: 1px solid #000
+// 	max-width: 100%
+// 	max-height: 100%
+// 	overflow: auto
+
+
+body
+	margin: 0
+	// background-color: #FFF
+	// min-height: 100%
+	// width: 100%	
+	// color: #FFF
+
+.header
+	font-size: 32px
+
+.command
+	margin: 30px 0 0 0
+	font-weight: 900
+	font-size: 16px
+
+
+.command input[type=text]
+	font-family: 'Share Tech Mono', monospace
+	font-size: 16px
+	max-width: 175px
+	// outline: none
+	// border: none
+
+// .popup
+// 	width: 200px
+// 	height: 100px
+// 	bottom: 20px
+// 	right: -1230px
+// 	position: fixed
+// 	+vendor-prefix(box-shadow, "0px 25px 10px -15px rgba(0,0,0,0.05)")
+// 	transition: 0.5s
+// 	background-color: #000
+
+// .close
+// 	position: absolute
+// 	top: 5px
+// 	right: 5px
+// 	width: 20px
+// 	height: 20px
+// 	cursor: pointer
+// 	z-index: 500
+
+// ns-close
+// 	width: 20px
+// 	height: 20px
+// 	position: absolute
+// 	right: 4px
+// 	top: 4px
+// 	overflow: hidden
+// 	text-indent: 100%
+	cursor: pointer
+	+vendor-prefix(backface-visibility, hidden)
