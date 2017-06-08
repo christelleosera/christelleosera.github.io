@@ -24,6 +24,11 @@ body {
 .command input[type=text] {
   font-family: "Share Tech Mono", monospace;
   font-size: 16px;
-  max-width: 175px; }
+  max-width: 175px;
+  outline: none;
+  border: none; }
+
+.tml-box .response {
+  font-weight: 300; }
 
 /*# sourceMappingURL=styles.css.map */
