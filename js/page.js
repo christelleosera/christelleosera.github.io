@@ -10,13 +10,13 @@ $(document).ready(function() {
 
       switch(destination){
         case 'menu':
-          $('.tml-box .command').append('<div class="response">Type [command] + ENTER<br/><br/>\'about\' -- </div>');
+          $('.tml-box .command').append('<div class="response">Type [command] + ENTER<br/><br/>\'about\' -- basic info<br/>\'resume\' -- show resume<br/>\'contact\' -- contact information</div>');
           break;
-        case 'about':a
+        case 'about':
           $('.tml-box').text('about');
           break;
         case 'resume':
-          $('.tml-box').text('resume');
+          $('.tml-box .command').append('<div class="response"><a href="https://drive.google.com/file/d/0ByLWZ6t0I7mSS1ByX01ITmN2eDA/view" target="_blank">Resume link (opens in Google Drive)</a></div>');
           break;
         case 'contact':
           $('.tml-box').text('contact');
