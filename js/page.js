@@ -21,7 +21,7 @@ $(document).ready(function() {
           $('input[type="text"]').keyup(get_input);
           break;
         case 'resume':
-          $('.tml-box .command').html('<div class="response"><strong>Resume link:</strong> <a href="https://drive.google.com/file/d/0ByLWZ6t0I7mSS1ByX01ITmN2eDA/view" target="_blank">(opens in Google Drive)</a></div>');
+          $('.tml-box .command').html('<div class="response"><strong>Resume link:</strong> <a href="https://s3-us-west-2.amazonaws.com/christelle-osera/CV_ChristelleOsera_2019.pdf" target="_blank">Click here</a></div>');
           $('.tml-box .command').append('<br/>guest:~$ <input id="input_cmd" type="text" maxlength="30" autofocus>');
           $('input[type="text"]').focus();
           $('input[type="text"]').keyup(get_input);
