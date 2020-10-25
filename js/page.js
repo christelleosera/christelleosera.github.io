@@ -34,12 +34,11 @@ $(document).ready(function() {
   <strong>Phone: </strong> \
   +1 253 777 9506\
   <br/>\
-  <strong>Social: </strong> \
+  <strong>Links: </strong> \
   <span id="social-icons">\
     <a target="_blank" href="https://www.linkedin.com/in/christelleosera/"><span class="social-icon"><i class="fa fa-linkedin-square"></i></span></a>\
     <a target="_blank" href="https://github.com/christelleosera"><span class="social-icon"><i class="fa fa-github-square"></i></span></a>\
     <a target="_blank" href="https://plus.google.com/u/0/+ChristelleOsera26"><span class="social-icon"><i class="fa fa-google-plus-square"></i></span></a>\
-    <a target="_blank" href="https://www.instagram.com/tellelelelel/"><span class="social-icon"><i class="fa fa-instagram"></i></span></a>\
     <a target="_blank" href="http://steamcommunity.com/id/tellelelele"><span class="social-icon"><i class="fa fa-steam-square"></i></span></a>\
   </span>\
 </div>');
